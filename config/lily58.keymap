@@ -72,11 +72,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1         &kp F2  &kp F3          &kp F4          &kp F5           &kp F6                                      &none         &none         &out OUT_TOG  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR_ALL
-&kp F7         &kp F8  &kp F9          &kp F10         &kp F11          &kp F12                                     &kp N7        &kp N8        &kp N9        &kp N0        &kp ASTERISK  &none
-&none          &none   &none           &kp UP_ARROW    &none            &none                                       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &kp SLASH     &kp TILDE
-&kp LG(LC(Q))  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp COMMA     &kp PIPE
-                                       &trans          &trans           &trans   &trans            &trans           &trans        &kp DOT       &kp COMMA
+&kp F1         &kp F2          &kp F3          &kp F4          &kp F5           &kp F6                                      &none         &none         &out OUT_TOG  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR_ALL
+&kp F7         &kp F8          &kp F9          &kp F10         &kp F11          &kp F12                                     &kp N7        &kp N8        &kp N9        &kp N0        &kp ASTERISK  &none
+&out OUT_TOG   &bt BT_SEL 0    &bt BT_SEL 1    &kp UP_ARROW    &none            &none                                       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &kp SLASH     &kp TILDE
+&kp LG(LC(Q))  &bt BT_CLR_ALL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp COMMA     &kp PIPE
+                                               &trans          &trans           &trans   &trans            &trans           &trans        &kp DOT       &kp COMMA
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
